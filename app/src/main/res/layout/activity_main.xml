@@ -50,17 +50,14 @@
 
     <ImageButton
         android:id="@+id/ibtnGato"
-        style="@android:style/Widget.ImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginTop="4dp"
         android:contentDescription="Dar nombre"
-        android:scaleType="matrix"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txvPasarDatos"
-        app:srcCompat="@drawable/cat" />
+        android:src="@drawable/cat" />
 
     <TextView
         android:id="@+id/txvRecibir"
@@ -106,17 +103,14 @@
 
     <ImageButton
         android:id="@+id/ibtnDatos"
-        style="@android:style/Widget.ImageButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
         android:contentDescription="Validar Clave"
-        android:scaleType="matrix"
-        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txvRecibir"
-        app:srcCompat="@drawable/login" />
+        android:src="@drawable/login"/>
 
     <TextView
         android:id="@+id/txvResul"
